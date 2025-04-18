@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Media querys */
+
+@media screen and (min-width: 768px) {
+    
+    section#login{
+        width: 80%;
+
+    }
+    div#img{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    div#log{
+        float: right;
+        width: 70%;
+        height: 100%;
+        
+    }
+}
+@media screen and (min-width: 950px) {
+    section#login{
+        width: 70%;
+        
+        
+    }
+    div#img{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    div#log{
+        float: left;
+        width: 50%;
+        height: 50%;
+    }
+}
