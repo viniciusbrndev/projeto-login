@@ -2,29 +2,49 @@
 
 /* Media querys */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 949px) {
     
     section#login{
-        width: 80%;
+        width: 70%;
 
     }
     div#img{
         float: left;
-        width: 30%;
+        width: 40%;
         height: 100%;
     }
     div#log{
-        float: right;
-        width: 70%;
+        width: 60%;
         height: 100%;
+        
+    }
+    h1, p{
+        position: relative;
+        top: 2%;
+        left: 10%;
+        display: block;
+    }
+    p{
+        size: 1.3em;
+    }
+    h1{
+        size: 1.7em;
+        display: block;
         
     }
 }
 @media screen and (min-width: 950px) {
     section#login{
         width: 70%;
+        font-size: 1.3em;
         
+    }
+    h1, p{
         
+        margin: 20px;
+    }
+    h1{
+        size: 1.7em;
     }
     div#img{
         float: right;
@@ -32,7 +52,7 @@
         height: 100%;
     }
     div#log{
-        float: left;
+        
         width: 50%;
         height: 50%;
     }
