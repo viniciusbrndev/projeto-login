@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* Estilos para outros dispositivos */
+
+/* tablets */
+@media screen and (min-width:768px) {
+section#login{
+    width: 70%;
+}
+section#login > div#imagem{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+section#login > div#form{
+    width: 60%;
+    height: 100%;
+
+
+}
+div#form{
+margin-top: 40px;
+}
+div#bt{
+    margin-top: -5px;
+    margin-bottom: 40px;
+}
+div.infos{
+    margin-top: 50px;
+}
+}
+/* desktop */
+@media screen and (min-width:1025px) {
+    section#login{
+        width: 80%;
+    }
+    section#login > div#imagem{
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+    section#login > div#form{
+        width: 50%;
+        height: 100%;
+    
+    }
+    div.boton{
+        margin-top: 5px;
+    }
+    div#bt{
+        margin-bottom: 30px;
+    }
+} 
